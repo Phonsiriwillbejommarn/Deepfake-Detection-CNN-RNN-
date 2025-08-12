@@ -27,7 +27,7 @@
 
 โครงสร้างพื้นฐานของโฟลเดอร์และไฟล์ควรเป็นดังนี้ เพื่อให้สคริปต์ทำงานและบันทึกผลถูกที่
 
-```text
+```
 Deepfake-Detection-CNN-RNN/
 ├── checkpoints/
 │   └── varlen_best.h5         # จะถูกสร้างหลังฝึกโมเดลเสร็จ
@@ -36,15 +36,14 @@ Deepfake-Detection-CNN-RNN/
 │   └── real/                  # วิดีโอจริง
 ├── README.md
 ├── run_all.sh                 # สคริปต์หลักสำหรับเตรียมข้อมูล + ฝึกโมเดล
-=======
-Markdown
+
 # Deepfake-Detection-CNN-RNN-
 
 ### 1. การจัดเตรียมโครงสร้างไฟล์
 
 โครงสร้างควรมีลักษณะคล้ายกับนี้:
 
-```text
+```
 Deepfake-Detection-CNN-RNN-/
 ├── checkpoints/
 │   └── varlen_best.h5  (ไฟล์นี้จะถูกสร้างขึ้นหลังจากการฝึกโมเดล)

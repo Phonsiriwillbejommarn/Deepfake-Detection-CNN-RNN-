@@ -43,7 +43,7 @@ Deepfake-Detection-CNN-RNN/
 
 โครงสร้างควรมีลักษณะคล้ายกับนี้:
 
-```
+```text
 Deepfake-Detection-CNN-RNN-/
 ├── checkpoints/
 │   └── varlen_best.h5  (ไฟล์นี้จะถูกสร้างขึ้นหลังจากการฝึกโมเดล)
